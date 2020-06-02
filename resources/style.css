@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+img {
+    width: 100px;
+    margin-left: 2%;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+nav a {
+    background-color: white;
+    margin: 0 5%;
+}
+
+h1 {
+    padding-top: 125px;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: white;
+}
+
+#submit {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f1c40f;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+#submit:hover {
+    background-color: orange;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#features {
+    max-width: 750px;
+    margin: auto;
+}
+
+#features h2 {
+    margin-top: 50px;
+}
+
+#features p {
+    margin-top: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 70px auto;
+}
+
+#pricing {
+    display: flex;
+    justify-content: center;
+}
+
+#pricing .container {
+    flex: 0 1 300px;
+    width: 320px;
+    height: 300px;
+    margin: 0 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#pricing h3 {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: lightgrey;
+    padding: 10px 40px;
+}
+
+#pricing h2 {
+    padding: 20px 0;
+}
+
+#pricing p {
+    line-height: 1.4;
+}
+
+#button {
+    background-color: #f1c40f;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    padding: 10px 0;
+    height: 40px;
+}
+
+footer {
+    max-width: 946px;
+    margin: 30px auto;
+    text-align: right;
+    background-color: lightgrey;
+    margin-bottom: 0;
+}
+
+footer section {
+    padding: 10px 20px;
+    background-color: inherit;
+}
+
+footer a {
+    padding-left: 20px;
+    background-color: inherit;
+}
+
+footer p {
+    margin-top: 10px;
+    background-color: inherit;
+}
+
+@media only screen and (max-width: 780px) {
+  
+    #pricing {
+    flex-direction: column;
+    }
+  
+  #pricing .container {
+    margin: 10px auto;
+    display: block;
+    }
+
+    #features {
+        padding: 0 20px;
+    }
+}
