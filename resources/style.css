@@ -24,6 +24,10 @@ img {
     margin-left: 5%;
 }
 
+#middle {
+    height: 80px;
+}
+
 nav {
     background-color: white;
     display: flex;
