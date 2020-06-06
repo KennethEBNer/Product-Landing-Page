@@ -13,7 +13,7 @@ a {
 header {
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -21,7 +21,7 @@ header {
 
 img {
     width: 100px;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 nav {
@@ -48,6 +48,11 @@ form {
     text-align: center;
 }
 
+input {
+    border: 1px solid #d7d7d7;
+    border-radius: 5px;
+}
+
 #email {
     width: 300px;
     height: 30px;
@@ -72,17 +77,30 @@ form {
 }
 
 #features {
-    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
     margin: auto;
 }
 
-#features h2 {
+#features .box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
     margin-top: 50px;
+}
+
+section img {
+    display: inline-block;
+    margin-right: 30px;
+    width: 120px;
 }
 
 #features p {
     margin-top: 10px;
 }
+
+
 
 iframe {
     display: block;
